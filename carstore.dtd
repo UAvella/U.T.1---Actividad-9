@@ -1,0 +1,28 @@
+<!ELEMENT car_store (store, sales_team, cars)>
+
+<!ELEMENT store (name, address, contact)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address (street, city, zip)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT contact (tlf, store_email)>
+<!ELEMENT tlf (#PCDATA)>
+<!ELEMENT store_email (#PCDATA)>
+
+<!ELEMENT sales_team (salesperson+)>
+<!ELEMENT salesperson (salesname, email, phone)>
+<!ELEMENT salesname (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ATTLIST salesperson dni CDATA #REQUIRED>
+
+<!ELEMENT cars (car*)>
+<!ELEMENT car (brand, model, year, color, price)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT model (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST car id CDATA #REQUIRED>
+<!ATTLIST car availability CDATA #REQUIRED>

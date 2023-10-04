@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE car_store SYSTEM "carstore.dtd">
+<car_store>
+    <store>
+        <name>factory autoemotive</name>
+        <address>
+            <street>recta de los tarahales, n81</street>
+            <city>las palmas</city>
+            <zip>35013</zip>
+        </address>
+        <contact>
+            <tlf>653 31 92 50</tlf>
+            <store_email>factoryautos@gmail.com</store_email>
+        </contact>
+    </store>
+    <sales_team>
+        <salesperson dni="45616230p">
+          <salesname>ulises avella</salesname>
+          <email>ulisesavellasantana@alumno.ieselrincon.es</email>
+          <phone>666555444</phone>
+        </salesperson>
+        <salesperson dni="42937295j">
+            <salesname>carlos hidalgo</salesname>
+            <email>carloshidalgo@gmail.com</email>
+            <phone>666555777</phone>
+        </salesperson>
+        <salesperson dni="42716260h">
+            <salesname>samuel ortiz</salesname>
+            <email>samuelortiz@gmail.com</email>
+            <phone>666555999</phone>
+        </salesperson>
+    </sales_team>
+    <cars>
+        <car id="1" availability="avalaible">
+            <brand>toyota</brand>
+            <model>corolla</model>
+            <year>2023</year>
+            <color>blanco</color>
+            <price>23.990€</price>
+        </car>
+        <car id="2" availability="out_of_stock">
+            <brand>mitsubishi</brand>
+            <model>evo VII</model>
+            <year>2000</year>
+            <color>rojo</color>
+            <price>37.440€</price>
+        </car>
+        <car id="3" availability="out_of_stock">
+            <brand>renault</brand>
+            <model>clio</model>
+            <year>2020</year>
+            <color>gris</color>
+            <price>17.880€</price>
+        </car>
+        <car id="4" availability="avalaible">
+            <brand>bmw</brand>
+            <model>serie 3</model>
+            <year>2012</year>
+            <color>negro</color>
+            <price>12.950€</price>
+        </car>
+    </cars>
+</car_store>
